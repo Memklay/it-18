@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="css/zayavka.css">
+</head>
+<body>
+
+<h1>Форма заявки</h1> 
+<div class="container">
+  <form action="../action_page.php">
+    <label for="fname">Имя</label>
+    <input type="text" id="fname" name="firstname" placeholder="Ваше имя..">
+
+    <label for="lname">Фамилия</label>
+    <input type="text" id="lname" name="lastname" placeholder="Ваша фамилия..">
+
+    <label for="country">Город</label>
+    <select id="country" name="country">
+      <option value="australia">Москва</option>
+      <option value="canada">Тверь</option>
+      <option value="usa">Солнечногорск</option>
+    </select>
+
+    <label for="subject">Пожелания</label>
+    <textarea id="subject" name="subject" placeholder="Заказ..." style="height:200px"></textarea>
+
+    <input type="submit" value="Отправить" onclick="location.href='../HTML.html'">
+  </form>
+</div>
+
+</body>
